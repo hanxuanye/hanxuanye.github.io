@@ -57,8 +57,8 @@ nav a:hover, nav a:focus-visible { background: #e8f0f7; color: var(--blue-dark);
 .page-heading { display: grid; grid-template-columns: 1fr minmax(260px, .5fr); gap: 50px; align-items: end; margin-bottom: 70px; }
 .page-heading .page-title { margin: 0; }
 .page-heading p { margin: 0; color: var(--muted); }
-.about-layout { display: grid; grid-template-columns: minmax(200px, .4fr) 1.35fr; gap: clamp(42px, 7vw, 90px); }
-.portrait { display: block; width: 100%; max-width: 260px; height: auto; }
+.about-layout { display: grid; grid-template-columns: minmax(180px, .34fr) 1.35fr; gap: clamp(38px, 6vw, 76px); }
+.portrait { display: block; width: 100%; max-width: 220px; height: auto; }
 .long-copy { max-width: 720px; }
 .long-copy h2 { margin: 0 0 18px; padding-top: 42px; color: var(--blue); font: 700 13px Arial, sans-serif; text-transform: uppercase; letter-spacing: .1em; }
 .long-copy h2:first-child { padding-top: 0; }
@@ -108,7 +108,7 @@ nav a:hover, nav a:focus-visible { background: #e8f0f7; color: var(--blue-dark);
   .home-intro, .home-columns { gap: 40px; }
   .page-heading { gap: 24px; }
   .page-title { margin-bottom: 42px; }
-  .portrait { max-width: 230px; }
+  .portrait { max-width: 200px; }
   .tile-grid { grid-template-columns: 1fr 1fr; }
   .year-group { grid-template-columns: 1fr; gap: 22px; }
   .course-list article { grid-template-columns: 120px 1fr; }
