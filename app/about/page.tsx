@@ -11,7 +11,7 @@ export default function AboutPage() {
         <div>
           {/* The pre-sized static image avoids a runtime image-optimization dependency. */}
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img className="portrait" src="/hanxuan-ye.jpg" alt="Portrait of Hanxuan Ye" width="1200" height="1600" decoding="async" />
+          <img className="portrait" src="/hanxuan-ye.jpg" alt="Portrait of Hanxuan Ye" width="1086" height="1448" decoding="async" />
         </div>
         <div className="long-copy">
           <h2>Biography</h2>

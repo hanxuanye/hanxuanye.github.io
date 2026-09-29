@@ -14,7 +14,7 @@ export default function Home() {
   const recentPublications = [...publications].filter((p) => p.status !== "In preparation").sort((a, b) => b.year - a.year).slice(0, 4);
   return (
     <main>
-      <div className="home-banner"><span>STATISTICAL INFERENCE</span><span>GENOMICS</span><span>DATA SCIENCE</span></div>
+      <div className="home-banner"><span>STATISTICAL INFERENCE</span><span>STATISTICS</span><span>DATA SCIENCE</span></div>
       <div className="container home-intro">
         <section>
           <p className="kicker">Hanxuan Ye</p>
