@@ -3,7 +3,7 @@ import { SiteFooter } from "../components/SiteFooter";
 import { SiteHeader } from "../components/SiteHeader";
 import "./globals.css";
 
-const siteUrl = "https://hanxuanye.racing-ape-4537.chatgpt.site";
+const siteUrl = "https://hanxuanye.hanxuan365475.chatgpt.site";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
