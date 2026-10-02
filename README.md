@@ -1,8 +1,9 @@
 # Hanxuan Ye — Academic Website
 
-This is Hanxuan Ye's standalone multi-page academic website. It is separate
-from the legacy `yehanxuan.github.io` repository and links to the GitHub account
-at <https://github.com/hanxuanye>.
+This is the source for Hanxuan Ye's academic website at
+<https://hanxuanye.github.io>. It is maintained under the GitHub account
+[`hanxuanye`](https://github.com/hanxuanye) and is separate from the legacy
+`yehanxuan.github.io` website.
 
 ## Pages
 
@@ -33,11 +34,11 @@ each field and after each closing `}`.
 
 ## Preview locally
 
-This computer has a working Node installation at `/usr/local/Cellar/node@24`.
-From this project folder, use:
+Install dependencies, then start the local preview:
 
 ```bash
-PATH="/usr/local/Cellar/node@24/24.16.0/bin:$PATH" npm run dev
+npm install
+npm run dev
 ```
 
 Then open <http://localhost:3000>.
@@ -45,11 +46,15 @@ Then open <http://localhost:3000>.
 To run the complete production check:
 
 ```bash
-PATH="/usr/local/Cellar/node@24/24.16.0/bin:$PATH" npm test
+npm test
 ```
 
-The project is configured for Codex Sites hosting through
-`.openai/hosting.json`. It is not a static GitHub Pages export.
+## Publishing
+
+Push changes to the `main` branch of
+[`hanxuanye/hanxuanye.github.io`](https://github.com/hanxuanye/hanxuanye.github.io).
+GitHub Actions builds the static export and publishes it to GitHub Pages
+automatically. The deployment workflow is in `.github/workflows/pages.yml`.
 
 ## Design files
 

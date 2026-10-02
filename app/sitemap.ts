@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 
-const siteUrl = "https://hanxuanye.hanxuan365475.chatgpt.site";
+const siteUrl = "https://hanxuanye.github.io";
+
+export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return ["", "/about", "/news", "/publications", "/teaching"].map((path) => ({

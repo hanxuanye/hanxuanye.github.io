@@ -3,7 +3,7 @@ import { SiteFooter } from "../components/SiteFooter";
 import { SiteHeader } from "../components/SiteHeader";
 import "./globals.css";
 
-const siteUrl = "https://hanxuanye.hanxuan365475.chatgpt.site";
+const siteUrl = "https://hanxuanye.github.io";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     title: "Hanxuan Ye",
     description: "Assistant Professor in Statistics at Zhejiang University.",
     siteName: "Hanxuan Ye",
-    images: [{ url: "/hanxuan-ye.jpg", width: 1200, height: 1600, alt: "Portrait of Hanxuan Ye" }],
+    images: [{ url: "/hanxuan-ye.jpg", width: 1086, height: 1448, alt: "Portrait of Hanxuan Ye" }],
   },
   twitter: {
     card: "summary",
